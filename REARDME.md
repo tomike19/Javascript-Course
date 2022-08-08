@@ -1,0 +1,1 @@
+This is to solidify my knowledge my knowledge on Javascript
