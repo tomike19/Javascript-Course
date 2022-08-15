@@ -25,3 +25,11 @@ console.log(sport)
 let entertainment = "entertain";
 entertainment = entertainment.replace('entertain', 'enjoyment')
 console.log(entertainment)
+
+//Escape string
+
+let words = 'I didn\'t see this coming at all';
+console.log(words)
+
+let word = 'I didn\'t see this \ncoming at all';
+console.log(word)
