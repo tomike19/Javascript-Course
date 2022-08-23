@@ -33,4 +33,14 @@ function findLargest(num1, num2) {
     }
 
 }
-    findLargest(45,45)
+findLargest(45, 45)
+    
+
+let loggedInUser = true;
+
+if (loggedInUser) {
+    console.log("You are logged In")
+}
+else {
+    console.log("You are not logged In")
+}
