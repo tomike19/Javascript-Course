@@ -20,20 +20,20 @@ else {
     console.log("You are not fit")
 }
 
-function findLargest(num1, num2) {
-    if (num1 > num2) {
-        console.log(`${num1} is the greatest number`)
-    }
+// function findLargest(num1, num2) {
+//     if (num1 > num2) {
+//         console.log(`${num1} is the greatest number`)
+//     }
 
-    else if (num1 < num2) {
-        console.log(`${num1} is the largest`)
-    }
-    else {
-        console.log(`${num1} is equal to ${num2}`)
-    }
+//     else if (num1 < num2) {
+//         console.log(`${num1} is the largest`)
+//     }
+//     else {
+//         console.log(`${num1} is equal to ${num2}`)
+//     }
 
-}
-findLargest(45, 45)
+// }
+// findLargest(45, 45)
     
 
 let loggedInUser = true;
@@ -54,4 +54,21 @@ if (number >= 2 && number <= 5) {
 }
 else {
     console.log("Your number is small")
- }
+}
+ 
+
+function findLargest(num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+        console.log(`${num1} is the largest`)
+    }
+    else if (num2 > num3) {
+        console.log(`${num2} is the Largest`)
+    }
+
+    else {
+       console.log(`${num3} is the Largest number`)
+    }
+}
+ 
+findLargest(24, 48, 7)
+ findLargest(2,1,0)
