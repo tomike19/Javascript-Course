@@ -44,3 +44,14 @@ if (loggedInUser) {
 else {
     console.log("You are not logged In")
 }
+
+
+//Logical Operators
+
+let number = 5;
+if (number >= 2 && number <= 5) {
+     console.log("You have won")
+}
+else {
+    console.log("Your number is small")
+ }
