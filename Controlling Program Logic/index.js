@@ -71,4 +71,16 @@ function findLargest(num1, num2, num3) {
 }
  
 findLargest(24, 48, 7)
- findLargest(2,1,0)
+findLargest(2, 1, 0)
+ 
+
+ // OR ||
+ // If One side is true, the whole side is true
+
+let age  = 7;
+if (age < 10 || age >= 20) {
+     console.log('You get in free')
+}
+else {
+    console.log('You must Payyy!')
+ }
