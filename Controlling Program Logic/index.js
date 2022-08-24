@@ -84,3 +84,7 @@ if (age < 10 || age >= 20) {
 else {
     console.log('You must Payyy!')
  }
+
+
+// NOT (!)
+//expression returns true if the expression is false
