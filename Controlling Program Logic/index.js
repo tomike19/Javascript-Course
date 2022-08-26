@@ -88,3 +88,41 @@ else {
 
 // NOT (!)
 //expression returns true if the expression is false
+
+
+//switch statement
+
+let day = 5;
+switch (day) {
+    case 1:
+        console.log('Monday')
+        break;
+    case 2:
+        console.log('Tuesday')
+        break;
+    case 3:
+        console.log('Wednesday')
+        break;
+    case 4:
+        console.log('Thursday')
+        break;
+    case 5:
+        console.log('Friday')
+        break;
+    case 6:
+        console.log('Saturday')
+        break;
+    case 7:
+        console.log('Sunday')
+        break;
+    default:
+        console.log('Invalid day')
+}
+
+
+
+//TERNARY OPERATOR
+// A way of taking if and else and turning them into a single line of code... Yes/No
+
+let status = "offline";
+let color = status === 'offline' ? 'red' : 'green';
