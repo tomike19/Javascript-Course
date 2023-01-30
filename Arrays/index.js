@@ -10,3 +10,11 @@ let lotto = [20, 30, 40, 50, 60]
 //shift-  remove from the end of the array
 //unshift- remove from the end of the array
 
+
+
+
+// let x = "john" + " "  +  "is" +  " "  +  "a"  +  " "  +  "good"  + " " + "man";
+
+// console.log(x);
+
+const Array= ['hello', 'Tomike']
